@@ -17,7 +17,7 @@ contract BalanceStorage {
         return balances[_user];
     }
 
-    // Function to withdraw funds from the contract
+    // Function to withdraw funds from the contracts
     function withdraw(uint256 _amount) public {
         // Check if the sender has enough balance
         require(balances[msg.sender] >= _amount, "Insufficient balance");
