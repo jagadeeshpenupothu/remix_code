@@ -4,8 +4,11 @@ pragma solidity ^0.8.26;
 contract EtherWallet {
 
     // excution process of this contract - click deploy -> add ether value in value section -> click transact in CALLDATA section
+    
+    //address payable means - your address can able to send and receive ethers
     address payable public owner;
 
+    // sets the value to the state vaiable
     constructor() {
         owner = payable(msg.sender);
     }
