@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wallet.sol": "valat"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wallet.sol": {
+			"keccak256": "0x17f24ad9df38ad29dea5e9a1ecb81f6de6787d54dec81de1db6b1782df2f0f8a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df83047b97b5e8e975a31a0330f70dafe137cb3c700e7f9bcd6f42fb6f496662",
+				"dweb:/ipfs/QmdhGuwtmwkhAwTJid9mT4MrSMb5PyfTJuG2BggurzdkX4"
+			]
+		}
+	},
+	"version": 1
+}

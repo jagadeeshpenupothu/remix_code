@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"add-ethers.sol": "EtherToWallet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"add-ethers.sol": {
+			"keccak256": "0xd1726d7062f2144e66d0c00e33dc6cb67684468d32a77a99b68d8e42051a3da6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b1764412ab00a7e2af93af235f165f9c4534f5b7cd41efbfbb73f4101e74ed9",
+				"dweb:/ipfs/QmbM8PeqjeRmbAK8cQkc4xcygKUQzWsSbJz43W9M9fuQiz"
+			]
+		}
+	},
+	"version": 1
+}

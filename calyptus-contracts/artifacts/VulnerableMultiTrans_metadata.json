@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"calyptus-contracts/vulnerableMulitiTransfer.sol": "VulnerableMultiTrans"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"calyptus-contracts/vulnerableMulitiTransfer.sol": {
+			"keccak256": "0xbcd9ab66eb773cd7e482748ab499a9cd0b599492560895e50d38becdd3f20b6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6636c4ad3a764421cc96e8e110e1af5ff59ab80b88371af382e8cd17db8ac21f",
+				"dweb:/ipfs/QmbkGgPffuYeTPmAYnhDqL1B91wmNNiDMhQA2Mdf8xZTA3"
+			]
+		}
+	},
+	"version": 1
+}
