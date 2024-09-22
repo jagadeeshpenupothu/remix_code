@@ -8,6 +8,7 @@ node_modules/
 artifacts/
 .pnp/
 .pnp.js
+.state
 
 # Build output
 /build
@@ -32,4 +33,4 @@ artifacts/
 .DS_Store
 Thumbs.db
 
-.json
+*.json

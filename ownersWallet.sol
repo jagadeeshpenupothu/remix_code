@@ -21,6 +21,7 @@ contract ownersWallet{
     //withdraw function help to withdrawm the amount from the contract
     function withdraw(uint _amount) external{
         require(msg.sender == owner, "you are not a owner");
+        require(address(this).balance > _amount, "Insufficent funds");
         payable(msg.sender).transfer(_amount);
     }
 }
