@@ -3,8 +3,10 @@ pragma solidity ^0.8.26;
 
 contract multiSigWallet{
 
+//https://www.youtube.com/watch?v=Dh7r6Ze-0Bs&list=PLO5VPQH6OWdVfvNOaEhBtA53XHyHo_oJo
+
 //Learnings from multisig wallet
-    // event
+    // event - event and emit is used to log the data from smart contract
     // array
     // mapping
     // struct
