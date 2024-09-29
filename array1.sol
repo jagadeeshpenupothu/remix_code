@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
+//array practice question, delete a elemet in arry by index value
+
 contract arrayRemoveElementsByShifiting{
     uint256[] arr = [1,2,3,4,5];
     function RemoveIndexValue(uint256 _index) public{
