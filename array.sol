@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
+// array contract
+
 contract array_practice{
     uint256[] arr;
     function push(uint _value) public {
