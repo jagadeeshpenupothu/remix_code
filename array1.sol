@@ -2,6 +2,7 @@
 pragma solidity ^0.8.26;
 
 //array practice question, delete a elemet in arry by index value
+// array practice problem
 
 contract arrayRemoveElementsByShifiting{
     uint256[] arr = [1,2,3,4,5];
