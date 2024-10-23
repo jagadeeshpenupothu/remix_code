@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-// array contract
+// array contract for array practice
 
 contract array_practice{
     uint256[] arr;
