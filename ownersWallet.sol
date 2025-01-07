@@ -8,7 +8,8 @@ contract ownersWallet{
     //defining the the owner, more specifically as the payable owner
     address payable public owner;
 
-    // sets the owner which is deploying the contract in to the blockchain
+    // sets the owner which is deploying the contract in to the blockchain.
+    //comments___
     constructor() {
         owner = payable(msg.sender);
     }
